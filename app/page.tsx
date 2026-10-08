@@ -1,2 +1,8 @@
-import { redirect } from 'next/navigation'
-export default function Home(){ redirect('/dashboard') }
+export default function Home() {
+  return (
+    <main>
+      <h1>Truck Assist</h1>
+      <p>Roadside assistance for commercial vehicles.</p>
+    </main>
+  )
+}
